@@ -1,4 +1,12 @@
 ## SpeechRecognition_and_Text2Speech_App
+An automatic speech recognition and text-to-speech app using open-source models from Hugging Face. Supports speech recognition from both microphone audio and recorded audio.
+
+## Demo Video
+
+Watch the demo video to see how to run the app:
+
+[![Watch the video](https://img.youtube.com/vi/0LIqNsrkmx0/maxresdefault.jpg)](https://www.youtube.com/watch?v=0LIqNsrkmx0)
+
 
 ## Prerequisites
 
@@ -53,3 +61,26 @@ To install eSpeak on Windows, follow these steps:
 1. Download the eSpeak installer from the [official eSpeak download page](http://espeak.sourceforge.net/download.html).
 2. Run the installer.
 3. Follow the on-screen instructions to complete the installation.
+
+## Run Locally
+
+To run the app locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mdmahmudun/SpeechRecognition_and_Text2Speech_App.git
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd SpeechRecognition_and_Text2Speech_App
+
+3. Install required dependencies
+    ```bash
+    pip install -r requirements.txt
+
+4. Run the app:
+    ```bash
+    python app.py
+
